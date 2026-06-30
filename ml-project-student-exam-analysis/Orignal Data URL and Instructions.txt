@@ -1,0 +1,26 @@
+This dataset provides an extensive and realistic representation of various factors that contribute to student exam performance. It contains 20,000 records, each describing a student’s academic behavior, study habits, lifestyle routines, and exam conditions. These variables collectively help understand how different aspects of a student’s daily life and learning environment influence their exam outcomes.
+
+Link reference:
+https://www.kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset
+
+
+
+---------------- Instruction to perfom the analisys-----------------------------
+The project is organized into multiple files to ensure a clear and structured data science pipeline, separating raw data, preprocessing, and modeling stages.
+
+1. Original Dataset (Exam_Score_Prediction.csv): 
+The first file contains the original dataset in its raw form.
+
+2. Data Cleaning Notebook (Datacleaning.ipynb)
+The second file is a Jupyter Notebook, where data cleaning is performed.
+
+3. Cleaned Dataset (Exam_Score_Cleaned_Final.csv)
+After data cleaning, a new CSV file is generated.
+This file contains the processed and reliable version of the dataset.
+
+4. Feature Engineering and Modeling Notebook (FeatureEngineerModels.ipynb)
+This second Jupyter Notebook uses the cleaned CSV file to:
+Perform feature engineering (feature selection, transformations, etc.)
+Split the data into training and testing sets
+Train machine learning models (SVM, CatBoost, etc.)
+Evaluate model performance using metrics such as accuracy, precision, recall, and F1-score
