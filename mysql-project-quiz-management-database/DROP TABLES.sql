@@ -1,0 +1,15 @@
+USE CompanySITS;
+DROP database companysits;
+DROP TABLE IF EXISTS Topic_Contains_Subtopic;
+DROP TABLE IF EXISTS Quiz_Contains_Question;
+DROP TABLE IF EXISTS Attempt_Answer;
+DROP TABLE IF EXISTS Attempts;
+DROP TABLE IF EXISTS Question_Options;
+DROP TABLE IF EXISTS Topic;
+DROP TABLE IF EXISTS Question;
+DROP TABLE IF EXISTS Course;
+DROP TABLE IF EXISTS Quiz;
+DROP TABLE IF EXISTS Teacher_Subjects;
+DROP TABLE IF EXISTS Teacher;
+DROP TABLE IF EXISTS Student;
+DROP TABLE IF EXISTS Users;
