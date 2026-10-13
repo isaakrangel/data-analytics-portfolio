@@ -1,0 +1,9 @@
+pandas
+requests
+numpy
+tqdm
+matplotlib
+seaborn
+scikit-learn
+
+# pip install pandas requests numpy tqdm matplotlib seaborn scikit-learn

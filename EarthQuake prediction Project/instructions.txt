@@ -1,0 +1,14 @@
+steps
+
+.\.venv\Scripts\Activate.ps1 
+
+# run the download files to obtain the data
+python -m scripts.download_earthquakes
+python -m scripts.download_weather
+
+# then check data with the notebooks and run the merge code if the data is correct
+
+python -m scripts.merge_data
+
+
+
